@@ -1,0 +1,15 @@
+###
+GET http://localhost:4000/custosDespesas/1
+
+
+###
+GET http://localhost:4000/receitas
+
+###
+POST http://localhost:4000/custosDespesas
+Content-type: application/json
+
+{
+      "numero": "1",
+      "nome": "Leite"
+}
